@@ -1,0 +1,78 @@
+*{
+ font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;  
+ background-color: rgb(196, 226, 228);
+}
+/* ::before{
+    background-color: black;
+} */
+.nav-bar{
+    width: 90%;
+    margin: auto;
+    position: sticky;
+    background-color: rgb(47, 155, 182);
+    
+}
+.nav-bar-top-menu{
+    display: flex;
+}
+li{
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+.nav-bar-menu{
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+}
+.nav-bar-menu ul {
+    display: flex;
+    margin: 15px;
+    padding: 0%;
+}
+.nav-bar-menu ul li{
+    margin-inline: 20px;
+}
+.nav-bar-icons{
+    width: 20%;
+    justify-items: end;
+    align-content: center;
+}
+.nav-bar-icons ul{
+    display: flex;
+    padding: 0%;
+    margin: 15px;
+}
+.nav-bar-icons ul li{
+    display: flex;
+    height: 27px;
+    margin-inline: 5px;
+}
+.main{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.main-text{
+    align-content: center;
+}
+.main-text h2{
+    font-weight: 700;
+}
+.btn-primary{
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    height: 50px;
+    border-radius: 4px;
+    background: rgb(196, 226, 228);
+}
+
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    justify-items: center;
+}
