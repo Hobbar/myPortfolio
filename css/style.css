@@ -1,6 +1,5 @@
 *{
  font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;  
-
 }
 .nav-bar{
     width: 100%;
@@ -47,17 +46,27 @@ li{
 }
 .main{
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
+    padding-top: 180px;
+    justify-content: space-between;
 }
 .main-text{
     align-content: center;
+    width: 50%;
 }
 .main-text h2{
     font-weight: 700;
 }
 .main-img{
-    border: #000000;
+    border: 5px solid #fff9f3;
+    border-radius: 50%;
+    margin-right: 5%;
+    
+}
+.main-img img{
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
 }
 .btn-primary{
@@ -68,9 +77,11 @@ li{
     border-radius: 4px;
     background: rgb(196, 226, 228);
 }
-
 .about{
+    width: 80%;
+    margin: auto;
     margin-top: 130px;
+    margin-bottom: 130px;
     background-color: #fff9f3;
     border-radius: 10px;
     text-align: center;
@@ -111,5 +122,6 @@ li{
 }
 .footer p{
     margin: 0%;
+    padding: 5px;
     color: whitesmoke;
 }
