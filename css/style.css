@@ -1,19 +1,16 @@
 *{
  font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;  
- background-color: rgb(196, 226, 228);
+
 }
-/* ::before{
-    background-color: black;
-} */
 .nav-bar{
-    width: 90%;
+    width: 100%;
     margin: auto;
-    position: sticky;
-    background-color: rgb(47, 155, 182);
-    
+    position: fixed;
 }
 .nav-bar-top-menu{
     display: flex;
+    margin-inline: 5%;
+    background-color: rgb(255 239 239);
 }
 li{
     list-style: none;
@@ -31,9 +28,10 @@ li{
 }
 .nav-bar-menu ul li{
     margin-inline: 20px;
+    font-weight: 500;
 }
 .nav-bar-icons{
-    width: 20%;
+    width: 10%;
     justify-items: end;
     align-content: center;
 }
@@ -58,21 +56,60 @@ li{
 .main-text h2{
     font-weight: 700;
 }
+.main-img{
+    border: #000000;
+    border-radius: 50%;
+}
 .btn-primary{
     color: #000000;
     font-weight: 600;
     font-size: 20px;
-    box-sizing: border-box;
     padding: 10px 10px;
-    height: 50px;
     border-radius: 4px;
     background: rgb(196, 226, 228);
 }
 
-
+.about{
+    margin-top: 130px;
+    background-color: #fff9f3;
+    border-radius: 10px;
+    text-align: center;
+}
+.section-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+}
+.about-info{
+    padding: 0%;
+}
+.info-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
 .footer{
     width: 100%;
-    position: absolute;
-    bottom: 0px;
     justify-items: center;
+    background-color: #000000;
+}
+.footer p{
+    margin: 0%;
+    color: whitesmoke;
 }
