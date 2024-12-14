@@ -1,0 +1,102 @@
+*{
+    font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;  
+}
+.title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    padding: 40px;
+    background-color: rgb(255 239 239);
+}
+.section-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+.contact{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 15%;
+    background-color: #f3f9ff;
+    padding: 50px;
+}
+.contact .section-title{
+    text-align: left;
+
+}
+.contact .section-description{
+    color: #474747;
+    margin-bottom: 30px;
+}
+.contact input[type="text"],input[type="number"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.btn-primary{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background: #000000;
+}
+.nav-bar-icons{
+    width: 10%;
+    justify-items: end;
+    align-content: center;
+}
+.nav-bar-icons ul{
+    display: flex;
+    padding: 0%;
+    margin: 15px;
+}
+.nav-bar-icons ul li{
+    display: flex;
+    height: 27px;
+    margin-inline: 5px;
+}
+.info-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+a img{
+    height: 27px;
+}
+
+@media screen and (max-width:700px){
+    .contact{
+        width: 100%;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .contact input[type="text"],input[type="number"], input[type="email"], textarea{
+        margin-bottom: 24px;
+        border: 0px;
+        width: 100%;
+        padding: 5px 3px;
+    }
+}
+@media screen and (max-width:600px){
+    .contact{
+        flex-direction: column;
+    }
+    .message{
+        margin-top: 50px;
+    }
+}

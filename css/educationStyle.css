@@ -1,0 +1,40 @@
+*{
+    font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;  
+}
+.section-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    margin: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+.resume-item{
+    margin: 30px 0;
+}
+.resume .title{
+    color: #000000;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #161616;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    font-size: 20px;
+    color: #222222;
+}
+.resume-btn{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
