@@ -13,16 +13,17 @@
     <header>
         <nav class="nav-bar">
             <div class="nav-bar-top-menu">
-                <div>
-                    <!-- <h1>Home</h1> -->
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
                 <div class="nav-bar-menu">
                     <ul>
-                        <li>Education</li>
-                        <li>Work Experience</li>
-                        <li>Get In Touch</li>
+                        <a href="education.html"><li>Education</li></a>
+                        <a href="workExperience.html"><li>Work Experience</li></a>
+                        <a href="getInTouch.html"><li>Get In Touch</li></a>
                     </ul>
-                    
                 </div>
                 <div class="nav-bar-icons">
                     <ul>
@@ -37,10 +38,13 @@
     </header>
     <main>
         <div class="main">
-            <div class="main-text px-5">
+            <div class="main-text ">
                 <h2>MD. Naymur Rahman</h2>
-                <p>I am Front-end web developer working with Bootstrap and Tailwind. Little knowledge about mysql and php.</p>
-                <a href="files/cv.pdf" target="_blank"><button class="btn-primary my-3"><i class="fa-solid fa-download"></i> Download CV</button></a>
+                <p>
+                    I am Front-end web developer working with Bootstrap and Tailwind. 
+                    <span>Little knowledge about mysql and php.</span>
+                </p>
+                <a href="files/cv.pdf" target="_blank"><button class="btn-primary my-3"><i class="fa-solid fa-download"></i> <span>Download</span> CV</button></a>
                 
             </div>
             <div class="main-img">
@@ -71,14 +75,7 @@
                     <p class="info-desciption">Dhaka, Bangladesh</p>
                 </div>
             </div>
-        </section>
-        <!-- <div>
-            <h2>About Me</h2>
-            <p>I am good at designing websites, networking, and managing databases. I am eager to be challenged in order to
-                grow and further improve my IT skills.</p>
-        </div>
-        <div></div> -->
-        
+        </section>        
     </main>
     <footer>
         <div class="footer">
