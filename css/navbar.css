@@ -6,10 +6,10 @@ header{
     top: 0px;
 }
 .nav-bar{
+    height: 60px;
    width: 100%;
    display: flex;
    position: fixed;
-   align-items: center;
 }
 .nav-bar-top-menu{
     display: flex;
@@ -79,7 +79,6 @@ li{
     margin-inline: 15px;
 }
 .nav-bar-icons{
-   width: 10%;
    justify-items: end;
    align-content: center;
 }

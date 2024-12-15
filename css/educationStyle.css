@@ -64,9 +64,9 @@ section.resume {
 @media screen and (max-width:700px){
     section.resume {
         width: 100%;
-        margin: auto;
-        /* margin-top: 30px; */
-        padding: 0px;
+        margin: 0px;
+        padding-inline: 0px;
+        padding-bottom: 20px;
         padding-top: 50px;
     }
     .section-title{
