@@ -1,5 +1,13 @@
 *{
-    font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;  
+    font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace; 
+    margin: 0;
+    padding: 0; 
+}
+section.resume {
+    background-color: rgb(187, 217, 243);
+    width: 80%;
+    margin: 5% auto;
+    padding: 35px;
 }
 .section-title{
     text-align: center;
@@ -27,14 +35,50 @@
     color: #161616;
     font-weight: 600;
     font-size: 25px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .resume .description{
     font-size: 20px;
     color: #222222;
 }
-.resume-btn{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    text-align: center;
+/*  */
+.btn-primary{
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+}
+.footer{
+    width: 100%;
+    justify-items: center;
+    background-color: #000000;
+}
+.footer p{
+    margin: 0%;
+    padding: 5px;
+    color: whitesmoke;
+}
+@media screen and (max-width:700px){
+    section.resume {
+        width: 100%;
+        margin: auto;
+        /* margin-top: 30px; */
+        padding: 0px;
+        padding-top: 50px;
+    }
+    .section-title{
+        font-size: 35px;
+    }
+    .resume .title{
+        font-size: 25px;
+    }
+    .resume .sub-title {
+        font-size: 20px;
+    }
+    .resume .description {
+        font-size: 16px;
+    }
 }

@@ -6,6 +6,8 @@
     font-weight: 900;
     font-size: 45px;
     padding: 40px;
+    margin-top: 30px;
+    margin-inline: 5%;
     background-color: rgb(255 239 239);
 }
 .section-title{

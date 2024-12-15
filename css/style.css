@@ -1,89 +1,7 @@
 *{
  font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;  
 }
-.nav-bar{
-    width: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-}
-.nav-bar-top-menu{
-    display: flex;
-    width: 100%;
-    margin-inline: 5%;
-    justify-content: space-between;
-    background-color: rgb(255 239 239);
-}
-li{
-    list-style: none;
-    color: rgb(0, 0, 0);
-}
-.menu-icon {
-    display: inline-block;
-    cursor: pointer;
-    align-content: center;
-    padding-left: 10px;
-}
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #000000;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-  .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-}
-  .change .bar2 {
-    opacity: 0;
-}
-  .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-}
-.nav-bar-menu{
-    display: none;
-    flex-direction: column;
-    margin: auto;
-    justify-items: center;
-    align-content: center;
-    position: absolute;
-    top: 60px;
-    background-color: rgb(255 239 239);
-    border-radius: 5px;
-}
-.nav-bar-menu ul {
-    margin: 0;
-    padding: 0;
-}
-.nav-bar-menu a{
-    text-decoration: none;
-    display: block;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border-radius: 5px;
-}   
-.nav-bar-menu a:hover{
-    background-color: rgb(215, 229, 250);
-}
-.nav-bar-menu ul li{
-    margin-inline: 15px;
-    font-weight: 500;
-}
-.nav-bar-icons{
-    width: 10%;
-    justify-items: end;
-    align-content: center;
-}
-.nav-bar-icons ul{
-    display: flex;
-    padding: 0%;
-    margin: 15px;
-}
-.nav-bar-icons ul li{
-    display: flex;
-    height: 27px;
-    margin-inline: 5px;
-}
+
 .main{
     display: flex;
     width: 80%;
@@ -186,7 +104,7 @@ li{
         width: 250px;
     }
 }
-@media (min-width: 770px) {
+/* @media (min-width: 770px) {
     .nav-bar-menu{
         display: flex;
         flex-direction: row;
@@ -199,7 +117,7 @@ li{
     .menu-icon {
         display: none;
     }
-}
+} */
 @media screen and (max-width:770px) {
     .main{
         flex-direction: column-reverse;
