@@ -7,8 +7,9 @@
     font-size: 45px;
     padding: 40px;
     margin-top: 30px;
-    margin-inline: 5%;
+    /* margin-inline: 5%; */
     background-color: rgb(255 239 239);
+    color: black;
 }
 .section-title{
     text-align: center;
@@ -69,9 +70,10 @@ input{
 .info-title{
     font-size: 20px;
     font-weight: 500;
+    margin: 0px !important;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 a img{
     height: 27px;

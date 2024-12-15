@@ -14,7 +14,7 @@ header{
 .nav-bar-top-menu{
     display: flex;
     width: 100%;
-    margin-inline: 5%;
+    /* margin-inline: 5%; */
     justify-content: space-between;
     background-color: rgb(255 239 239);
 }
@@ -117,7 +117,8 @@ li{
 }
 .nav-bar-menu ul li{
     margin-inline: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
 }
 .nav-bar-menu2{
     opacity: 0;
