@@ -4,6 +4,7 @@
 header{
     position: absolute;
     top: 0px;
+    z-index: 100;
 }
 .nav-bar{
     height: 60px;
